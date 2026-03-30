@@ -1,3 +1,10 @@
+# LeetCode 1752 - Check if Array is Sorted and Rotated
+# Approach 1: Brute Force (Check all rotations)
+# Time: O(n^2)
+# Approach 2: Optimal (Count order breaks)
+# Time: O(n)
+# Space: O(1)
+
 class Solution_Brute(object):
     def check(self, nums):
         """
